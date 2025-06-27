@@ -20,6 +20,7 @@
   <script src="index.js"></script>
   <script>
     // ป้องกันการย้อนกลับหรือไปข้างหน้า
+    //444
     if (window.history && window.history.pushState) {
       window.history.pushState(null, "", window.location.href);
       window.onpopstate = function () {
